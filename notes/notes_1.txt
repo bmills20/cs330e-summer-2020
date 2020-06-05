@@ -53,9 +53,9 @@ The output of applying this tool to a python script includes information such as
 •	range(): returns an object which produces elements on demand. 
 
 •	Three ways to execute a Hello.py
-	- type in the shell: "python Hello.py"
-	- give executable permission to the file and type in the shell: "Hello.py"
-	- run the python interpreter and type in: "import Hello"
+	type in the shell: "python Hello.py"
+	give executable permission to the file and type in the shell: "Hello.py"
+	run the python interpreter and type in: "import Hello"
 
 •	#! /usr/bin/env python3
 	It's a commented line for Python 
