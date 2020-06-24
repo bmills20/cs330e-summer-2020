@@ -1,0 +1,39 @@
+map function:
+------------
+map(function_to_apply, list_of_inputs)
+
+Example
+>>> items = [1, 2, 3, 4, 5]
+>>> squared = list(map(lambda x: x**2, items))
+>>> squared
+[1, 4, 9, 16, 25]
+>>>
+
+
+Comprehensions.py
+-----------------
+filter(predicate, list_of_inputs)
+filter is a generator takes a predicate, it applies the predicate 
+on the given iterable returns the element that satisfies the predicate.
+It's an iterator, i.e., it returns itself.
+
+
+"|=" union of sets
+
+Lines 174: all() # all(iterable): Return True if all elements of the iterable are true (or if the iterable is empty).
+A(): instance of a class
+True
+...
+all([]) = True
+
+Lines 186: any() # any(iterable): Return True if any element of the iterable is true. If the iterable is empty, return False.
+any([]) = False
+https://docs.python.org/3.5/library/functions.html#all
+
+FunctionKeywords.py
+Note 1: the specified "by name" arguments should have corresponds with the names 
+in the function signature as parameters.
+Note 2: In the functional call, when you mix "by position" and "by name" arguments, 
+arguments passed "by position" should come first. 
+Then the remainder by name (the order of the arguments passed by name does not matter)
+
