@@ -14,13 +14,18 @@ def cycle_range_for(s) :
             yield s[i]
    else :
       pass
-   
+
 def cycle_for (s) : # user-defined iterable
     p = iter(s)
     try :
-        while True :
-           w = next(p)
-           yield w
-    except StopIteration :
-        pass
-    
+       next(p)
+    except StopIteration:
+       return
+    p = iter(s)
+    while True :
+       try :
+          while True :
+             w = next(p)
+             yield w
+       except StopIteration :
+          p = iter(s)
