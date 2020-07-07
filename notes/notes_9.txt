@@ -12,6 +12,7 @@ etc. are iterables.
 The iter() function (which in turn calls the __iter__() method) 
 returns an iterator from them.
 -------------
+https://treyhunner.com/2016/12/python-iterator-protocol-how-for-loops-work/
 
 Note:
 #Given an iterable, x, using "if x" does not work for user-defined iterables. 
